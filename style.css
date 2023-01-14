@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  font-family: 'Work Sans';
+  font-style: normal;
+}
+
+.btn {
+  position: absolute;
+  right: 203px;
+  top: 488px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #FD6E0A;
+
+}
+
+/* banner styles */
+.banner {
+  background-image: url(images/banner/banner2.png);
+  background-size: contain;
+  text-align: center, right;
+  background-repeat: no-repeat;
+  width: 1349px;
+  height: 790px;
+}
+
+.banner-title {
+  position: absolute;
+  left: 776px;
+  right: 203px;
+  top: 195px;
+  text-align: right;
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.banner-description {
+  position: absolute;
+  left: 776px;
+  right: 203px;
+  top: 400px;
+  text-align: right;
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* from */
+.user-from{
+  margin: 0 240px 20px 240px ;
+}
+.container {
+  padding: 16px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* this the 2end banner */
+.person-img{
+  height: 620px;
+}
+
+.header-2 {
+  margin: 0 309px 0 181px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.banner-title-2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.banner-description-2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+span {
+  color: green;
+}
+
+/*My Plans styles */
+.my-plan{
+  margin: 0 190px;
+  text-align: center;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.my-plan-container {
+  display: flex;
+}
+
+.plan-li {
+  background: #FFFFFF;
+  /* border-radius: 5px; */
+  padding: 30px;
+}
+
+.plan-li-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.plan-li-description {
+  color: #757575;
+}
+
+/* call now */
+.call-me-section {
+  margin: 100px 200px;
+}
+
+.call-me {
+  width: 100%;
+  height: 267px;
+  ;
+  background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.call-me-btn {
+  position: relative;
+  top: 65px;
+  left: 58px;
+  color: #FD6E0A;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  width: 147px;
+  height: 61px;
+}
+
+.call-me-title {
+  position: relative;
+  top: 50px;
+  left: 58px;
+  width: 459px;
+  height: 94px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+
+}
+
+
+/* footer styles */
+.footer {
+  display: flex;
+  gap: 100px;
+  color: beige;
+  background: #000000;
+  padding: 130px 200px;
+}
+
+/* .footer .footer-title {
+  text-align: left;
+} */
+
+.footer input[type="email"] {
+  margin-bottom: 24px;
+  width: 100%;
+  padding: 18px 12px;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  color: #F3F3F3;
+  background-color: #000000;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+  padding-bottom: 20px;
+  ;
+}
+
+.footer-title-2nd {
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 23px;
+}
+
+.btn-sub {
+  color: #FD6E0A;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 60px;
+  border-radius: 5px;
+  background: #FFFFFF;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
